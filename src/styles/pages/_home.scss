@@ -1,5 +1,6 @@
 @use "../abstract/variables" as *;
 @use "../abstract/mixins" as *;
+@use "../base/global" as *;
 
 .home {
   font-family: "RedRose", sans-serif;

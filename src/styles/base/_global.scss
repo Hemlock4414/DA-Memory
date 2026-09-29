@@ -1,0 +1,14 @@
+@use '../abstract/mixins' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  @include flex-center;
+  max-width: 1440px;
+  width: 100%;
+}
